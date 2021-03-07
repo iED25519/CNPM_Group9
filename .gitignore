@@ -1,8 +1,13 @@
-**/nbproject/private/
-**/nbproject/Makefile-*.mk
-**/nbproject/Package-*.bash
+#netbeans
+core
+nbproject/*
+!nbproject/project.properties
+!nbproject/project.xml
 build/
 nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+
+#java
+*.class
